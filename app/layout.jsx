@@ -1,11 +1,11 @@
 import '@styles/globals.css';
-import { Children } from 'react/cjs/react.production.min';
+// import { Children } from 'react/cjs/react.production.min';
 export const metadata = {
     titile: "CodeAstrology",
     description: "Web development company",
 }
 
-const layout = () => {
+const RootLayout = ({Children}) => {
   return (
     <html lang='en'>
         <body>
@@ -20,4 +20,4 @@ const layout = () => {
   )
 }
 
-export default layout
+export default RootLayout
