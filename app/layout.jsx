@@ -10,7 +10,7 @@ const RootLayout = ({Children}) => {
     <html lang='en'>
         <body>
             <div className='main'>
-
+              hello there!
             </div>
             <main className='app'>
                 {Children}
